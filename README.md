@@ -1,3 +1,8 @@
+**Note:** This is a fork of original Darkflow (https://github.com/thtrieu/darkflow) with following modifications:
+ - flow.py can output both json and annotated image, instead of one or the other
+ - Corrects a Cython build error in Ubuntu 16.04 Python 3 
+     "nms.c:447:31: fatal error: numpy/arrayobject.h: No such file or directory"
+
 ## Intro
 
 Real-time object detection and classification. Paper: [version 1](https://arxiv.org/pdf/1506.02640.pdf), [version 2](https://arxiv.org/pdf/1612.08242.pdf).
